@@ -5,7 +5,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get("/", function(req,res){
-    res.send("<h1>Bem vindo ao meu site atualizado!</h1>");
+    res.send("<h1>Bem vindo ao meu site novo</h1>");
 })
 
 app.get("/produtos", function(req,res){
